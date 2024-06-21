@@ -35,7 +35,6 @@ hex_x = x.digits(16)
 # Find the position of '00' in hex_x and extract the message
 position_m = hex_x.find("00")
 m = hex_x[position_m + 2:]
-
 # Print the results
 print("hex_x =", hex_x)
 print("Length of hex_x:", len(hex_x))
